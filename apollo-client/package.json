@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "jest --watch"
+  },
+  "name": "graphql-apollo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.4.9",
+    "graphql": "^14.7.0"
+  }
+}
